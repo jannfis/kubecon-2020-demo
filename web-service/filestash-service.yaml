@@ -9,4 +9,4 @@ spec:
       targetPort: 8334
   selector:
     app.kubernetes.io/name: kubecon-demo-filestash
-  type: LoadBalancer
+  type: ClusterIP

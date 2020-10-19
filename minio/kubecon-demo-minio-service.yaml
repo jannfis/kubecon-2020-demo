@@ -3,4 +3,4 @@ kind: Service
 metadata:
   name: kubecon-demo-minio
 spec:
-  type: LoadBalancer
+  type: ClusterIP
